@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="SQLite.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="298"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="Ages" custom_title="0" dock_id="1" table="4,4:mainAges"/><dock_state state="000000ff00000000fd00000001000000020000000000000000fc0100000001fb000000160064006f0063006b00420072006f00770073006500310100000000ffffffff0000010100ffffff000000000000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1*">CREATE TABLE Ages ( 
+  name VARCHAR(128), 
+  age INTEGER
+)
+
+DELETE FROM Ages;
+INSERT INTO Ages (name, age) VALUES ('Pieter', 37);
+INSERT INTO Ages (name, age) VALUES ('Ayiah', 13);
+INSERT INTO Ages (name, age) VALUES ('Windsor', 40);
+INSERT INTO Ages (name, age) VALUES ('Carter', 16);
+INSERT INTO Ages (name, age) VALUES ('Kallan', 39);
+
+SELECT hex(name || age) AS X FROM Ages ORDER BY X</sql><current_tab id="0"/></tab_sql></sqlb_project>
