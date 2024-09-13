@@ -8,9 +8,15 @@ cur.executescript('''
 DROP TABLE IF EXISTS Artist;
 DROP TABLE IF EXISTS Album;
 DROP TABLE IF EXISTS Track;
+DROP TABLE IF EXISTS Genre;
 
 CREATE TABLE Artist (
     id  INTEGER PRIMARY KEY,
+    name    TEXT UNIQUE
+);
+
+CREATE TABLE Genre (
+    id  INTEGER  PRIMARY KEY,
     name    TEXT UNIQUE
 );
 
