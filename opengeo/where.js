@@ -269,5 +269,6 @@ myData = [
 [39.20883,-96.58845116318602, 'Kansas State University'],
 [40.4314742,-3.7900439484094033, 'Universidad Complutense de Madrid (Campus de Somosaguas)'],
 [38.2187045,21.747894895431557, 'University of Patras'],
-[45.41667,11.86667, 'University of Padua']
+[45.41667,11.86667, 'University of Padua'],
+[33.70834,-112.270879, 'University of Padua']
 ];
